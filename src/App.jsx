@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Terminal, Code2, Monitor, Github, Linkedin, Mail, ExternalLink, Cpu, Smile, Sparkles, Command, Zap } from 'lucide-react';
 import { link } from 'framer-motion/client';
 
+
+
 function App() {
   const [text, setText] = useState('');
   const [isLoading, setIsLoading] = useState(true);
